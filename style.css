@@ -1,0 +1,150 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
+@import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 50px;
+    padding: 0px 50px;
+    font-family: 'Caveat', cursive;
+}
+
+.header-list ul {
+    display: flex;
+}
+
+.header-list li {
+    list-style: none;
+    padding: 0px 30px 0px 30px;
+    font-size: 14px;
+}
+
+.header-list a, .header-logo a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-button h5 {
+    padding: 20px;
+}
+
+.main {
+    height: auto;
+}
+
+.loop02 {
+    display: flex;
+    overflow: hidden;
+}
+
+.loop02__box {
+    list-style: none;
+    display: flex;
+    animation: loop-list 50s linear infinite;
+}
+
+.loop02__item img {
+    width: 400px;
+    height: auto;
+}
+
+@keyframes loop-list {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.phrase {
+    text-align: center;
+    padding: 30px;
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+.blog {
+}
+
+.blog h1 {
+    margin: 0px 100px;
+    font-weight: 100;
+}
+
+.blogObject {
+    display: flex;
+    margin: 20px 100px 0px 100px;
+    height: auto;
+    justify-content: space-between;
+}
+
+.blog1, .blog2, .blog3 {
+    margin: 10px;
+    width: 25%;
+    text-align: left;
+}
+
+.blogObject h4 {
+    font-weight: 70;
+    margin: 10px 0px;
+}
+
+.line {
+    margin: 0 1rem;
+    width: 2px;
+    background-color: #000;
+}
+
+.about {
+    margin: 100px 0px 50px 0px;
+    display: flex;
+}
+
+.about img {
+    width: 60%;
+    height: auto;
+    margin-bottom: auto;
+}
+
+.aboutContents {
+    margin: 100px 50px;
+}
+
+.aboutContents h1 {
+    font-weight: 100;
+}
+
+.setsumei {
+    margin: 50px 0px 0px 0px;
+}
+
+.garally {
+    display: flex;
+}
+
+.garallyContents {
+    margin: 100px 50px;
+}
+
+.garallyContents h1 {
+    font-weight: 100;   
+}
+
+.garally img{
+    width: 60%;
+    height: auto;
+    margin-bottom: auto;
+}
