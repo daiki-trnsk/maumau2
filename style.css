@@ -164,7 +164,7 @@ header {
         display: block;
         width: 30px;
         height: 25px;
-        margin: 0 0 0 50%;
+        margin: 0 0 0 auto;
     }
 
     #hamburger span {
