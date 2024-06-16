@@ -76,8 +76,6 @@ header {
     font-family: 'Sawarabi Mincho', sans-serif;
 }
 
-.blog {
-}
 
 .blog h1 {
     margin: 0px 100px;
@@ -147,4 +145,94 @@ header {
     width: 60%;
     height: auto;
     margin-bottom: auto;
+}
+
+/* スマホ向けのレスポンシブ対応 */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 20px;
+    }
+
+    .header-logo {
+        font-size: 36px;
+        padding: 10px 0;
+    }
+
+    .header-list {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-list ul {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .header-list li {
+        padding: 10px 0;
+        font-size: 16px;
+    }
+
+    .loop02__item img {
+        width: 250px;
+    }
+
+    .phrase {
+        padding: 20px;
+        font-size: 12px;
+    }
+
+    .blog h1 {
+        margin: 20px 10px;
+        font-size: 24px;
+    }
+
+    .blogObject {
+        flex-direction: column;
+        margin: 20px 10px;
+    }
+
+    .blog1, .blog2, .blog3 {
+        width: 100%;
+    }
+
+    .line {
+        width: 100%;
+        height: 2px;
+        margin: 10px 0;
+    }
+
+    .about {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about img {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .aboutContents {
+        margin: 20px;
+        text-align: center;
+    }
+
+    .garally {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .garally img {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .garallyContents {
+        margin: 20px;
+        text-align: center;
+    }
 }
