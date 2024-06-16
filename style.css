@@ -151,6 +151,11 @@ header {
     margin-bottom: auto;
 }
 
+.footer {
+    height: 60px;
+    background-color: black;
+}
+
 /* スマホ向けのレスポンシブ対応 */
 @media (max-width: 768px) {
     header {
@@ -297,18 +302,17 @@ header {
     }
 
     .phrase {
-        padding: 20px 0px;
+        padding: 20px 0px 30px 0px;
         font-size: 10px;
     }
 
-    .blog h1 {
-        margin: 20px 10px;
-        font-size: 24px;
+    .blog_title {
+        text-align: center;
     }
 
     .blogObject {
         flex-direction: column;
-        margin: 20px 10px;
+        margin: 0px 10px;
     }
 
     .blog1, .blog2, .blog3 {
@@ -350,4 +354,9 @@ header {
         margin: 20px;
         text-align: center;
     }
+
+    .main p {
+        font-family: sans-serif;
+    }
+   
 }
